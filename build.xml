@@ -1,0 +1,9 @@
+<project>
+	<target name="jar">
+		<jar destfile="build/scrabble.jar">
+			<fileset dir="build">
+				<include name="*.class"/>
+			</fileset>
+		</jar>
+	</target>
+</project>
